@@ -2,10 +2,7 @@ package edu.ntudp.sau.horb.lr2.model;
 
 import java.util.Objects;
 
-public class Human {
-    public enum Sex {
-        MALE, FEMALE, OTHER;
-    }
+public abstract class Human {
     private String firstName;
     private String lastName;
     private String patronymic;
