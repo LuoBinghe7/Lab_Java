@@ -1,9 +1,8 @@
 package edu.ntudp.sau.horb.lr2.controler;
 import edu.ntudp.sau.horb.lr2.model.Department;
 import edu.ntudp.sau.horb.lr2.model.Group;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+
+import java.util.*;
 
 public class DepartmentCreator {
     Scanner scanner;
@@ -24,5 +23,24 @@ public class DepartmentCreator {
             groups.add(groupCreator.createGroup());
         }
         return new Department(nameDepartment,headCreator.createTypicalHead(),groups);
+    }
+    public List<Department> createTypicalDepartmentsForLab4(String facultyName) {
+        HeadCreator headCreator = new HeadCreator(null,null);
+        GroupCreator groupCreator = new GroupCreator(null);
+        if (facultyName.contains("FIT")) {
+            return Arrays.asList(
+                    createDepartmentForLab4("Systems analysis and management", headCreator, groupCreator),
+                    createDepartmentForLab4("Information technology", headCreator, groupCreator)
+            );
+        } else if (facultyName.contains("FIS")) {
+            return Arrays.asList(
+                    createDepartmentForLab4("Cybersecurity", headCreator, groupCreator),
+                    createDepartmentForLab4("Computer Science", headCreator, groupCreator)
+            );
+        }
+        return Collections.emptyList();
+    }
+    public Department createDepartmentForLab4(String departmentName, HeadCreator headCreator, GroupCreator groupCreator) {
+        return new Department(departmentName,headCreator.createTypicalHeadForLab4(departmentName),groupCreator.createTypicalGroupsForLab4(departmentName));
     }
 }

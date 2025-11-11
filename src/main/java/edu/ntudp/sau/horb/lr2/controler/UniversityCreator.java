@@ -1,9 +1,8 @@
 package edu.ntudp.sau.horb.lr2.controler;
 import edu.ntudp.sau.horb.lr2.model.Faculty;
 import edu.ntudp.sau.horb.lr2.model.University;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+
+import java.util.*;
 
 public class UniversityCreator {
     Scanner scanner;
@@ -24,5 +23,12 @@ public class UniversityCreator {
             faculties.add(facultyCreator.createFaculty());
         }
         return new University(nameUniversity,headCreator.createTypicalHead(),faculties);
+    }
+    public University createTypicalUniversityForLab4() {
+        HeadCreator headCreator = new HeadCreator(null,null);
+        FacultyCreator facultyCreator = new FacultyCreator(null);
+        String UniversityName = "NTU DP";
+        List<Faculty> faculties = facultyCreator.createTypicalFacultyForLab4(UniversityName);
+        return new University(UniversityName,headCreator.createTypicalHeadForLab4(UniversityName),faculties);
     }
 }

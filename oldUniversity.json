@@ -1,0 +1,277 @@
+{
+  "name": "NTU DP",
+  "head": {
+    "firstName": "Viktor",
+    "lastName": "Kipoch",
+    "patronymic": "Petrovych",
+    "sex": "MALE"
+  },
+  "divisions": [
+    {
+      "name": "FIT",
+      "head": {
+        "firstName": "Ananatoly",
+        "lastName": "Loza",
+        "patronymic": "Yevhenovych",
+        "sex": "MALE"
+      },
+      "divisions": [
+        {
+          "name": "Systems analysis and management",
+          "head": {
+            "firstName": "Serhii",
+            "lastName": "Novych",
+            "patronymic": "Ivanovych",
+            "sex": "MALE"
+          },
+          "divisions": [
+            {
+              "name": "Group 124-22-1",
+              "head": {
+                "firstName": "Kateryna",
+                "lastName": "Bondar",
+                "patronymic": "Yuriyivna",
+                "sex": "FEMALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 111,
+                  "firstName": "Kateryna",
+                  "lastName": "Bondar",
+                  "patronymic": "Yuriyivna",
+                  "sex": "FEMALE"
+                },
+                {
+                  "studentIdNumber": 112,
+                  "firstName": "Mariia",
+                  "lastName": "Kryzh",
+                  "patronymic": "Olehivna",
+                  "sex": "FEMALE"
+                }
+              ]
+            },
+            {
+              "name": "Group 124-22-2",
+              "head": {
+                "firstName": "Dmytro",
+                "lastName": "Lytvyn",
+                "patronymic": "Olehovych",
+                "sex": "MALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 113,
+                  "firstName": "Viktor",
+                  "lastName": "Melnyk",
+                  "patronymic": "Ivanovych",
+                  "sex": "MALE"
+                },
+                {
+                  "studentIdNumber": 114,
+                  "firstName": "Dmytro",
+                  "lastName": "Lytvyn",
+                  "patronymic": "Olehovych",
+                  "sex": "MALE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Information technology",
+          "head": {
+            "firstName": "Karyna",
+            "lastName": "Moran",
+            "patronymic": "Serhiivna",
+            "sex": "FEMALE"
+          },
+          "divisions": [
+            {
+              "name": "Group 123-22-1",
+              "head": {
+                "firstName": "Hryhorii",
+                "lastName": "Mytsyk",
+                "patronymic": "Ivanovych",
+                "sex": "MALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 115,
+                  "firstName": "Hryhorii",
+                  "lastName": "Mytsyk",
+                  "patronymic": "Ivanovych",
+                  "sex": "MALE"
+                },
+                {
+                  "studentIdNumber": 116,
+                  "firstName": "Serhii",
+                  "lastName": "Serhiiovych",
+                  "patronymic": "Petrovych",
+                  "sex": "MALE"
+                }
+              ]
+            },
+            {
+              "name": "Group 123-22-2",
+              "head": {
+                "firstName": "Kateryna",
+                "lastName": "Moroz",
+                "patronymic": "Yanivna",
+                "sex": "FEMALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 117,
+                  "firstName": "Kateryna",
+                  "lastName": "Moroz",
+                  "patronymic": "Yanivna",
+                  "sex": "FEMALE"
+                },
+                {
+                  "studentIdNumber": 118,
+                  "firstName": "Kostiantyn",
+                  "lastName": "Kormin",
+                  "patronymic": "Yevhenovych",
+                  "sex": "MALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FIS",
+      "head": {
+        "firstName": "Viktoriia",
+        "lastName": "Lozenko",
+        "patronymic": "Serhiivna",
+        "sex": "OTHER"
+      },
+      "divisions": [
+        {
+          "name": "Cybersecurity",
+          "head": {
+            "firstName": "Pavlo",
+            "lastName": "Pivnyk",
+            "patronymic": "Pavlovych",
+            "sex": "MALE"
+          },
+          "divisions": [
+            {
+              "name": "Group 125-22-1",
+              "head": {
+                "firstName": "Kyrylo",
+                "lastName": "Havva",
+                "patronymic": "Oleksandrovych",
+                "sex": "MALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 119,
+                  "firstName": "Kyrylo",
+                  "lastName": "Havva",
+                  "patronymic": "Oleksandrovych",
+                  "sex": "MALE"
+                },
+                {
+                  "studentIdNumber": 120,
+                  "firstName": "Hryhorii",
+                  "lastName": "Kriuchko",
+                  "patronymic": "Andriiovych",
+                  "sex": "MALE"
+                }
+              ]
+            },
+            {
+              "name": "Group 125-22-2",
+              "head": {
+                "firstName": "Viktoriia",
+                "lastName": "Padalko",
+                "patronymic": "Petriivna",
+                "sex": "FEMALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 121,
+                  "firstName": "Viktoriia",
+                  "lastName": "Padalko",
+                  "patronymic": "Petriivna",
+                  "sex": "FEMALE"
+                },
+                {
+                  "studentIdNumber": 122,
+                  "firstName": "Lev",
+                  "lastName": "Mokh",
+                  "patronymic": "Andriiovych",
+                  "sex": "MALE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Computer Science",
+          "head": {
+            "firstName": "Yuriy",
+            "lastName": "Pluch",
+            "patronymic": "Petrovych",
+            "sex": "MALE"
+          },
+          "divisions": [
+            {
+              "name": "Group 122-22-1",
+              "head": {
+                "firstName": "Marianna",
+                "lastName": "Lakhno",
+                "patronymic": "Vasylivna",
+                "sex": "FEMALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 123,
+                  "firstName": "Marianna",
+                  "lastName": "Lakhno",
+                  "patronymic": "Vasylivna",
+                  "sex": "FEMALE"
+                },
+                {
+                  "studentIdNumber": 124,
+                  "firstName": "Ivan",
+                  "lastName": "Kyslytsia",
+                  "patronymic": "Pavlovych",
+                  "sex": "MALE"
+                }
+              ]
+            },
+            {
+              "name": "Group 122-22-2",
+              "head": {
+                "firstName": "Mykyta",
+                "lastName": "Snihur",
+                "patronymic": "Petrovych",
+                "sex": "MALE"
+              },
+              "divisions": [
+                {
+                  "studentIdNumber": 125,
+                  "firstName": "Svitlana",
+                  "lastName": "Halushka",
+                  "patronymic": "Vasylivna",
+                  "sex": "FEMALE"
+                },
+                {
+                  "studentIdNumber": 126,
+                  "firstName": "Mykyta",
+                  "lastName": "Snihur",
+                  "patronymic": "Petrovych",
+                  "sex": "MALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

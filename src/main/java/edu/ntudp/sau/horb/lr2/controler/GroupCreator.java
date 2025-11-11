@@ -1,9 +1,8 @@
 package edu.ntudp.sau.horb.lr2.controler;
 import edu.ntudp.sau.horb.lr2.model.Group;
 import edu.ntudp.sau.horb.lr2.model.Student;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+
+import java.util.*;
 
 public class GroupCreator {
     Scanner scanner;
@@ -26,4 +25,35 @@ public class GroupCreator {
             }
             return new Group(nameGroup,headCreator.createTypicalHead(),students);
         }
+    public List<Group> createTypicalGroupsForLab4(String departmentName) {
+        HeadCreator headCreator = new HeadCreator(null,null);
+        StudentCreator studentCreator = new StudentCreator(null);
+        if (departmentName.contains("Systems analysis and management")) {
+            return Arrays.asList(
+                    createGroupForLab4("Group 124-22-1", headCreator, studentCreator),
+                    createGroupForLab4("Group 124-22-2", headCreator, studentCreator)
+            );
+        } else if (departmentName.contains("Information technology")) {
+            return Arrays.asList(
+                    createGroupForLab4("Group 123-22-1", headCreator, studentCreator),
+                    createGroupForLab4("Group 123-22-2", headCreator, studentCreator)
+            );
+        }
+        else if (departmentName.contains("Cybersecurity")) {
+            return Arrays.asList(
+                    createGroupForLab4("Group 125-22-1", headCreator, studentCreator),
+                    createGroupForLab4("Group 125-22-2", headCreator, studentCreator)
+            );
+        }
+        else if (departmentName.contains("Computer Science")) {
+            return Arrays.asList(
+                    createGroupForLab4("Group 122-22-1", headCreator, studentCreator),
+                    createGroupForLab4("Group 122-22-2", headCreator, studentCreator)
+            );
+        }
+        return Collections.emptyList();
+    }
+    public Group createGroupForLab4(String groupName, HeadCreator headCreator, StudentCreator studentCreator) {
+        return new Group(groupName,headCreator.createTypicalHeadForLab4(groupName),studentCreator.createTypicalStudentsForLab4(groupName));
+    }
 }
