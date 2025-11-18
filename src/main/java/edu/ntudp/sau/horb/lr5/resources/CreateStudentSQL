@@ -1,0 +1,44 @@
+CREATE DATABASE java5;
+USE java5;
+CREATE TABLE studentforlab5java(Id INT,first_name CHAR(50),last_name CHAR(50),patronimic CHAR(50), birth_date DATE,
+student_ID_number INT);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(1,'Kateryna','Bondar','Yuriyivna','2003-12-12',121);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(2,'Maria','Kryzh','Olehivna','2003-10-19',122);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(3,'Viktor','Melnyk','Ivanovych','2003-08-08',123);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(4,'Dmytro','Lytvyn','Olehovych','2003-01-18',124);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(5,'Hryhorii','Mytsyk','Ivanovych','2003-01-10',125);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(6,'Serhii','Moroz','Petrovych','2003-03-11',126);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(7,'Kostiantyn','Moroz','Petrovych','2003-03-11',127);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(8,'Kateryna','Kormin','Yanivna','2003-05-14',128);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(9,'Kyrylo','Havva','Oleksandrovych','2003-04-19',129);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(10,'Hryhorii','Kriuchko','Andriiovych','2003-02-17',130);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(11,'Viktoriia','Padalko','Petriivna','2003-10-10',131);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(12,'Lev','Mokh','Andriiovych','2003-11-11',132);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(13,'Marianna','Lakhno','Vasylivna','2003-12-15',133);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(14,'Vasyl','Palko','Pavlovych','2003-09-16',134);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(15,'Ivan','Kyslytsia','Pavlovych','2003-12-27',135);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(16,'Svitlana','Halushka','Vasylivna','2003-02-23',136);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(17,'Olena','Halushka','Vasylivna','2003-10-17',137);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(18,'Mykyta','Snihur','Andriiovych','2003-11-21',138);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(19,'Oleg','Halka','Andriiovych','2003-10-28',139);
+INSERT INTO studentforlab5java(Id, first_name, last_name, patronimic, birth_date, student_ID_number) VALUE
+(20,'Mykyta','Korcha','Oleksandrovych','2003-05-27',140);
